@@ -1,5 +1,5 @@
 # Introdução ao Create React App
-Este projeto foi inicializado com Create React App.
+Este projeto foi inicializado com Create React App, utilizando a API do Street View.
 
 Scripts Disponíveis
 No diretório do projeto, você pode executar:
