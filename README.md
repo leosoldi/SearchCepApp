@@ -21,3 +21,6 @@ Ele empacota corretamente o React no modo de produção e otimiza a compilação
 
 
 ![image](https://github.com/leosoldi/SearchCepApp/assets/94129878/3e189d4a-4a89-4a0f-be7d-de9881f1f43b)
+
+
+![image](https://github.com/leosoldi/SearchCepApp/assets/94129878/06bb5176-9588-401f-964a-2201aaf1a330)
