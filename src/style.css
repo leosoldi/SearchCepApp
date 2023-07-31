@@ -1,0 +1,163 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 55px;
+    font-family: initial;
+    color: #1A73E8;
+    animation: flipTitle 2s;
+}
+
+@keyframes flipTitle{
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
+
+.containerInput{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 34px ;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0,0,0, 0.5);
+}
+
+.containerInput input{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: #262729;
+    outline: none;
+    margin-right: 8px;
+}
+
+
+.containerInput input::placeholder{
+    color: #262729;
+}
+
+#msg {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buttonSearch{
+    background-color: transparent;
+    color:#000;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.buttonSearch:hover{
+    transform: scale(1.2);
+}
+
+
+.buttonMaps {
+    border: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 90px;
+    height: 40px;
+    
+}
+
+.buttonMaps:hover {
+    background-color: #1EA362;
+    cursor: pointer;
+    color: #FFE047;
+    font-weight: bold;
+    transition: transform 0.5s;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1A73E8;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.main h2{
+    margin: 16px ; 
+    font-size: 33px;
+    transition: transform 0.5s;
+}
+
+.main span{
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+
+
+
+@media (max-width: 620px){
+    .title {
+        font-size: 60px;
+    }
+
+    .main h2{
+        font-size: 28px;
+    }
+
+    .main{
+        width: 80%;
+        min-height: 250px;
+    }
+
+}
+
+.streetView img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+.streetView:hover {
+    transform: scale(1.1);
+}
+
+.streetView h3 {
+    text-align: right;
+    font-size: 15px;
+    margin-bottom: 3px;
+    margin-top: 2px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    margin-right: 10px;
+}
