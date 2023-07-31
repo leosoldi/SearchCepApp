@@ -20,3 +20,4 @@ Compila o aplicativo para produção na pasta de compilação.
 Ele empacota corretamente o React no modo de produção e otimiza a compilação para obter o melhor desempenho.
 
 
+![image](https://github.com/leosoldi/SearchCepApp/assets/94129878/3e189d4a-4a89-4a0f-be7d-de9881f1f43b)
